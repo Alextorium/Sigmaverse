@@ -1,0 +1,16 @@
+.progress-bar{
+    /* BSstyle */
+    
+    background-color: purple;
+}
+.progress{
+     /* BSstyle */
+    min-width: 300px;
+}
+
+.progress-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+

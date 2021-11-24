@@ -9,10 +9,40 @@
     padding: 10px;
 
 }
+
+p{
+    margin-bottom: 0ch;
+}
 button{
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: larger;
+    border-radius: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-color: white;
     border-style: solid;
+}
+.wallet{
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: white;
+    border-style: solid;
+    margin: 25px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+/* destkopstyles */
+@media only screen and (max-width: 375px){
+
 }

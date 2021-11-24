@@ -5,7 +5,7 @@ import { Card, Button  } from 'react-bootstrap'
 export default function WhatisBeta() {
     return (
         <div>
-     <Card style={{ width: '18rem' }}>
+     <Card style={{ width: '330px', }}>
      <Card.Img variant="top" src="http://placekitten.com/150/70" />
      <Card.Body>  
      <Card.Text>
