@@ -1,5 +1,15 @@
+.font-face-HB{
+  font-family: "HansonBold";
+}
+.font-face-MSB{
+  font-family: "MicroSquareB";
+}
+.font-face-MSR{
+  font-family: "MicroSquareR";
+}
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {

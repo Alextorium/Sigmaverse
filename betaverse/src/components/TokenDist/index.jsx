@@ -3,6 +3,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 import '../TokenDist/TokenDistribution.css'
 
 export default function TokenDistribution() {
+    
     return (
         <div className='token-container'>
             <div className='token-distribution'>

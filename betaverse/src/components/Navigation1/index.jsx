@@ -23,7 +23,7 @@ export default function Navbar1() {
 <Navbar style={{background: "none", }}  expand="xl" >
   <Container className='container-nav' style={{display: "flex",
     flexWrap: 'wrap', justifyContent: 'flex-end', }}>
-    <AiOutlineMenu className='CanvasButton' onClick={handleShow}  style={{borderColor: 'rgba(0,0,0,.0)', position: 'fixed', top: '10px', right: '10'}}/>
+    <AiOutlineMenu className='CanvasButton' onClick={handleShow}  style={{borderColor: 'rgba(0,0,0,.0)', color:"white", position: 'fixed', top: '10px', right: '10'}}/>
     <Navbar.Collapse id="collapse-navbar" style={{position: 'fixed', top: 0}} >
 
       <Nav className="me-auto">

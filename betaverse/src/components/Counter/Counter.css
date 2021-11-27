@@ -1,0 +1,21 @@
+.background-counter{
+    background-image: url('../assets/Rectangle 22.png') !important ;
+    min-width: 100%;
+    padding: 12.5px;
+}
+
+.container-counter{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .coverUp{
+    background-color:  black !important;
+    height: 10px;
+    padding: 10px;
+    margin: -1px;
+
+} */

@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Hanson-Bold.ttf';
+import './fonts/MicroSquare-Bold.ttf';
+import './fonts/MicroSquare-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

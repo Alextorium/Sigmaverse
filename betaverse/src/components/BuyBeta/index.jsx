@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar1 from '../Navigation1'
 import './BuyBeta.css'
 import { IoCopyOutline } from 'react-icons/io5'
-
+import Scroll from  '../assets/Scroll bar.png'
+import Element from '../assets/Element (2).png'
+import Counter from '../Counter'
 
 
 export default function BuyBeta() {
@@ -11,19 +13,26 @@ export default function BuyBeta() {
 
 
     return (
-        <div style={{background: "#72B8F0", color: "white"}}>
+        <div  className="background" >
+           
+           {/* <img src={process.env.PUBLIC_URL + '/assets/BANNER (2).png'} alt='sdfsd' /> */}
             <Navbar1 />
-            <br />
-             <img className="dome" src="http://placekitten.com/230/300" alt="Handy"  />   
             
-            
-            <h1>B E T A V E R S E</h1>
-            <h6>The Anti-cancel culture, freedom of speech token</h6>
-            <div className="buttons-container">
-              <button style={{background: 'white'}}>BUY $BETA</button> 
-              <button style={{background: "none", color:'white' }}>Whitepaper</button>  
+            <div>
+              <img className="dome" src={Element} alt="Handy"  />    
             </div>
-            <div className="wallet" style={{background: "none", color:'white'}} onClick={() =>  navigator.clipboard.writeText('#dhfjksdhfsdhfjksdhfjksdhfsdhfk')}> <IoCopyOutline style={{marginRight: '7px'}} /><div>374932423742</div></div>
+              
+            <h1 className="font-face-HB sigmaverse">S I G M A V E R S E</h1>
+            <h4 className='font-face-MSR sigmaver-sub'>The Anti-cancel culture, freedom of speech token</h4>
+            <div className="buttons-container font-face-MSB">
+              <button className='button-sigma ' style={{background: 'white',}}>BUY $SIGMA</button> 
+              <button className='button-sigma ' style={{background: "none", color:'white',  }}>Whitepaper </button>  
+            </div>
+            <div className="wallet button-copy font-face-MSB"  onClick={() =>  navigator.clipboard.writeText('#dhfjksdhfsdhfjksdhfjksdhfsdhfk')}> <IoCopyOutline style={{marginRight: '7px'}} />0x5a15466</div>
+            <img src={Scroll} alt="" srcset="" />
+            <Counter />
+            <div className='coverUp'></div>
+            
             
         </div> 
     )

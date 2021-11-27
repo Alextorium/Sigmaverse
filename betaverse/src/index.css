@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "HansonBold";
+  src: local("fonts"),
+   url("./fonts/Hanson-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+  @font-face {
+    font-family: "MicroSquareB";
+    src: local("fonts"),
+     url("./fonts/MicroSquare-Bold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+    @font-face {
+      font-family: "MicroSquareR";
+      src: local("fonts"),
+       url("./fonts/MicroSquare-Regular.ttf") format("truetype");
+      
+      }

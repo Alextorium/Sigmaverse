@@ -10,37 +10,80 @@
 
 }
 
+.sigmaverse{
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-top: 25px;
+    color: white;
+    line-height: 1.13px;
+    letter-spacing: 0.3;
+}
+.sigmaver-sub{
+    color:white;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 0px;
+}
+
 p{
     margin-bottom: 0ch;
 }
-button{
+.button-sigma{
+    min-width: 160px;
     font-size: larger;
     border-radius: 17px;
     padding-left: 17px;
     padding-right: 17px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-color: white;
     border-style: solid;
+    min-width: 130;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+.button-copy{
+    background: none;
+    display: block;
+    margin-top: 0px;
+    
 }
 .wallet{
     font-size: 30px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 17px;
     padding-left: 30px;
     padding-right: 30px;
     border-color: white;
     border-style: solid;
     margin: 25px;
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
+    color: white;
+    line-height: 1.13px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
 }
 
 .buttons-container{
-    display: flex;
-    justify-content:space-evenly;
     
+    margin: 10px;
+}
+
+.background{
+    
+    min-width: 375px;
+    min-height: 812PX;
+    width: 100%;
+    background-image: url('../assets/BANNER (2).png') !important ;
+    display: grid;
 }
 /* destkopstyles */
 @media only screen and (max-width: 375px){
