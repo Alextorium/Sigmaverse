@@ -1,0 +1,37 @@
+.usecased1{
+    background-image: url('../assets/UseCasesBGD1.png')  ;
+    min-width: 550px;
+    border-radius: 15px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.usecased2{
+    background-image: url('../assets/UseCasesBGD1.png')  ;
+    min-width: 550px;
+    border-radius: 15px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.imguses{
+    border-radius: 15px;
+}
+
+.download-cases-btn{
+    background: none;
+    color: 'white';
+    border-radius: 15px;
+    border-color: white;
+    padding: 8px 55px ;
+}
+.use-title{
+    position: absolute;
+}

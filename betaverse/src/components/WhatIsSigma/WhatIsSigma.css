@@ -1,0 +1,81 @@
+.card-img{
+    width: 330px;
+    /* margin: 10%; */
+    
+}
+.overlays{
+    width: 80%;
+    margin: 10%;
+    margin-top: 20%;
+}
+
+.card-title{
+    border-color: white;
+    border-width: 0.5px !important;
+    border:solid;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.card-body{
+
+    background-color: black;
+    border-radius: 30px;
+    display: grid;
+    justify-items: start;
+}
+.overlays{
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.button-whitep{
+    
+    padding: 1px 1px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    border: double 0.1px transparent;
+  border-radius: 17px;
+  background-image: linear-gradient(black, black), 
+                    linear-gradient(to right, #F5CEAF, #BCAADE);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  margin-bottom: 10px;
+
+  
+}
+.gradient{
+    /* border: solid;
+    
+    border-style: solid;
+  border-width: 2px;
+    border-image: linear-gradient(45deg,#F5CEAF, #BCAADE ) 1;
+    border-radius: 15px !important;
+    margin: 1px;
+    padding: 20px; */
+
+    
+  width: 300px;
+  
+  border: double 0.1em transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to right, #F5CEAF, #BCAADE);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+    
+}
+.text{
+    background: -webkit-linear-gradient(#F5CEAF, #BCAADE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.low-opacity{
+    max-width: 180px;
+}
+
+

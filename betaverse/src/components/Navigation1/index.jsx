@@ -3,53 +3,103 @@ import React, {useState} from 'react'
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import {AiOutlineMenu} from "react-icons/ai"
 import '../Navigation1/Navigation1.css'
+import {Link} from 'react-scroll'
 
 export default function Navbar1() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const home = '#home'
-  const about = '#about'
-  const tokenomics = '#token'
-  const charity = '#charity'
-  const team = '#team'
-  const useCases = '#usecases'
-  const buy = '#buy'
 
+   
     return (
         <>
         
-<Navbar style={{background: "none", }}  expand="xl" >
+<Navbar style={{background: "none", }}  expand="lg" >
   <Container className='container-nav' style={{display: "flex",
     flexWrap: 'wrap', justifyContent: 'flex-end', }}>
-    <AiOutlineMenu className='CanvasButton' onClick={handleShow}  style={{borderColor: 'rgba(0,0,0,.0)', color:"white", position: 'fixed', top: '10px', right: '10'}}/>
+    <AiOutlineMenu className='CanvasButton' onClick={handleShow}  style={{borderColor: 'rgba(0,0,0,.0)', color:"white", position: 'fixed', top: '10px', right: '15'}}/>
     <Navbar.Collapse id="collapse-navbar" style={{position: 'fixed', top: 0}} >
-
-      <Nav className="me-auto">
-
-        <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas className='font-face-MSR' style={{backgroundColor: 'black',fontSize: '35px' , color: 'white'}} show={show} onHide={handleClose}>
          <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title className='font-face-MSR' style={{fontSize: '40px'}}>Menu</Offcanvas.Title>
          </Offcanvas.Header>
-         <Offcanvas.Body>
-        <Nav.Link href={home}>Home</Nav.Link>
-        <Nav.Link href={about}>About Us</Nav.Link>
-        <Nav.Link href={tokenomics}>Tokenomics</Nav.Link>
-        <Nav.Link href={charity}>Charity</Nav.Link>
-        <Nav.Link href={team}>Team</Nav.Link>
-        <Nav.Link href={useCases}>Usecases</Nav.Link>
-        <Nav.Link href={buy}>Buy</Nav.Link>
+         <Offcanvas.Body className='menuoff' style={{backgroundColor: 'black'}}>
+        <Nav.Link>
+          <Link to='homemobile' spy={true} smooth={true}>Home</Link>
+        </Nav.Link>
+
+        <Nav.Link>
+          <Link to='sigmaversemobile' spy={true} smooth={true}>SIGMAVERSE</Link>
+        </Nav.Link>
+
+        <Nav.Link>
+          <Link to='tokenomicsmobile' spy={true} smooth={true}>TOKENOMIKS</Link>
+        </Nav.Link>
+
+        <Nav.Link>
+         <Link to='usecasesmobile' spy={true} smooth={true}>USE CASES</Link> 
+        </Nav.Link>
+
+        <Nav.Link>
+         <Link to='teammobile' spy={true} smooth={true}>TEAM</Link> 
+        </Nav.Link>
+
+        <Nav.Link>
+         <Link to='roadmapmobile' spy={true} smooth={true}>ROADMAP</Link> 
+        </Nav.Link>
+
+        <Nav.Link>
+         <Link to='faqsmobile' spy={true} smooth={true}>FAQ's</Link> 
+        </Nav.Link>
+
+        <Nav.Link>
+         <Link to='buy' spy={true} smooth={true}>BUY</Link> 
+        </Nav.Link>
+        
+        
+               
+        
+        
+        
+        
         </Offcanvas.Body>
          </Offcanvas>
+        
+        
+      <Nav className="desktop">
+        <Nav.Link>
+         <Link to='home' >HOME</Link> 
+        </Nav.Link>
+        <Nav.Link>
+         <Link to='sigmaverse'>SIGMAVERSE</Link> 
+        </Nav.Link>
+        <Nav.Link>
+         <Link to='tokenomics' >TOKENOMIKS</Link> 
+        </Nav.Link>
+        <Nav.Link>
+         <Link to='usecases' >USE CASES</Link> 
+        </Nav.Link>
+        <Nav.Link>
+          <Link to='team'>TEAM</Link>
+        </Nav.Link>
+        <Nav.Link>
+          <Link to='roadmap'>ROAD MAP</Link>
+        </Nav.Link>
+        <Nav.Link>
+        <Link to='faqs'>FAQ's</Link> 
+        </Nav.Link>
+        
+        <Nav.Link>
+         <Link to='buy'>BUY</Link> 
+        </Nav.Link>
 
-        <Nav.Link href={home}>Home</Nav.Link>
-        <Nav.Link href={about}>About Us</Nav.Link>
-        <Nav.Link href={tokenomics}>Tokenomics</Nav.Link>
-        <Nav.Link href={charity}>Charity</Nav.Link>
-        <Nav.Link href={team}>Team</Nav.Link>
-        <Nav.Link href={useCases}>Usecases</Nav.Link>
-        <Nav.Link href={buy}>Buy</Nav.Link> 
+        
+        
+        
+        
+        
+         
       </Nav>
     </Navbar.Collapse>
   </Container>

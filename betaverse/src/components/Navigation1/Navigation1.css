@@ -1,15 +1,33 @@
 .CanvasButton{
     height: 2.5rem;
     width: 2.5rem;
+    z-index: 1;
 }
 .offcanvas{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
 }
 
+.nav-link{
+    color:white ;
+
+
+}
+.nav-link:focus, .nav-link:hover{
+    color: violet!important;
+}
+a{
+    color: violet;
+}
+ .btn-close{
+     background: transparent url("../assets/CANCEL.png") center/1em auto no-repeat; 
+     border-radius: 20px;
+ }
+
 
 
 @media only screen and (min-width: 1199px){
+    
     .CanvasButton{
         display: none;
         
@@ -21,12 +39,16 @@
         flex-direction: column;
 
     }
+    .nav-link{
+        color: white !important;
+    }
+    
     }
 
-    @media only screen and (max-width: 992px){
+    /* @media only screen and (min-width: 375px){
         .me-auto{
             display: none;
         }
-    }
+    } */
 
     

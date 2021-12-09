@@ -1,0 +1,60 @@
+.backgroundTG{
+    background-image: url('../assets/TelegramBG.png') !important ;
+    border-radius: 15px;
+}
+
+.telegram-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.telegram-button{
+    color: white;
+    background: none;
+    border-color: white;
+    border-radius: 17px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.telegram-text{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 112.6%;
+}
+.max-wid{
+    max-width: 300px;
+}
+
+@media only screen and (min-width: 1200px){
+    .max-wid{
+        min-width: 1110px;
+    }
+    .telegram-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .telegram-text{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 112.6%;
+        max-width: 600px;
+    }
+    .telegram-button{
+        color: white;
+        background: none;
+        border-color: white;
+        border-radius: 17px;
+        width: 200px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}

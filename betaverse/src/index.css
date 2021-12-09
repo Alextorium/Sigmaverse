@@ -11,9 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  color: violet;
+}
 
 @font-face {
-  font-family: "HansonBold";
+  font-family: "Hanson";
   src: local("fonts"),
    url("./fonts/Hanson-Bold.ttf") format("truetype");
   font-weight: bold;

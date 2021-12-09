@@ -1,0 +1,14 @@
+.interfi{
+    min-width: 300px; 
+    width: 100%; 
+    padding: 10%
+}
+
+@media only screen and (min-width: 1200px){
+    .interfi{
+        
+        padding: 0px;
+        border-right: 15px;
+    }
+
+}

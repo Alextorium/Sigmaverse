@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 import Countdown from 'react-countdown';
 
@@ -8,7 +9,10 @@ import'./Counter.css'
 export default function CountDown() {
 
     const Finished = () => (
-        <button>Buy Now!</button>
+      <div className='background-counter'>
+       <Button className='buynow-counter font-face-MSB '>Buy Now !!!</Button> 
+      </div>
+        
       );
       
       // Renderer callback
@@ -16,8 +20,8 @@ export default function CountDown() {
         if (total) {
           // Render a countdown
           return (
-            <div style={{marginBottom: '-1'}} className='container-counter '>
-            <div className='font-face-MSB background-counter' style={{  color: 'white' }}>
+            <div style={{marginBottom: '-1', minWidth:'375px'}} className=' container-counter '>
+            <div className='font-face-MSB background-counter counter-desktop ' style={{  color: 'white' }}>
               
              <p  style={{ letterSpacing: '.2em' ,fontSize: '145.8%', paddingLeft:'10px', paddingRight:'10px'}}>{days} DAYS / {hours} Hours
              </p>  
@@ -34,7 +38,7 @@ export default function CountDown() {
 
     return (
         <div style={{fontSize: 'large'}}>
-         <Countdown date={'2021-12-01T14:00:00'} renderer={renderer}>
+         <Countdown date={'2021-12-08T00:00:00'} renderer={renderer}>
       
          </Countdown>
         </div>

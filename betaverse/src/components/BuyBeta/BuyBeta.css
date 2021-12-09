@@ -7,6 +7,8 @@
     border-width: 1px;
     border-color: white;
     padding: 10px;
+    min-width: 231px;
+    
 
 }
 
@@ -17,12 +19,14 @@
     color: white;
     line-height: 1.13px;
     letter-spacing: 0.3;
+    
 }
 .sigmaver-sub{
     color:white;
     padding-left: 17px;
     padding-right: 17px;
     margin-bottom: 0px;
+    
 }
 
 p{
@@ -34,11 +38,10 @@ p{
     border-radius: 17px;
     padding-left: 17px;
     padding-right: 17px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-color: white;
     border-style: solid;
-    min-width: 130;
     margin: 10px;
     margin-bottom: 0px;
     
@@ -72,20 +75,66 @@ p{
     
 }
 
+.btn-primary:hover {
+    border-color: blueviolet;
+    background: none;
+    color: black;
+    
+}
+
 .buttons-container{
     
-    margin: 10px;
+    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .background{
     
     min-width: 375px;
     min-height: 812PX;
-    width: 100%;
-    background-image: url('../assets/BANNER (2).png') !important ;
+    width: 100% ;
+    background-image: url('../assets/BANNER (2).png')  ;
     display: grid;
 }
-/* destkopstyles */
-@media only screen and (max-width: 375px){
 
+.MW{
+    min-width: 375px !important;
+    
+}
+
+.sigma-container{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 112.6%;
+/* or 34px */
+
+    text-align: center;
+    letter-spacing: 0.225em;
+
+}
+
+.container-key{
+    display: grid
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .desktop{
+        display: none
+    }
+    
+}
+@media only screen and (min-width: 1199px) {
+    .mobile{
+        display: none
+    }
+    
+}
+@media only screen and (min-width: 900px){
+    .extender{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
 }

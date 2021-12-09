@@ -1,0 +1,8 @@
+.ourteam-img{
+    border-radius: 95px;
+    padding: 45px;
+}
+.ourteam-container{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.NFTs-img{
+    border-radius: 95px;
+    
+    /* styles to fit the place holders */
+    max-width: 300px;
+    max-height: 400px;
+}
+.NFTs-container{
+    display: flex;
+    justify-content: center;
+}

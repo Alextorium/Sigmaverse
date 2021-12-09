@@ -1,0 +1,24 @@
+.road-mobile-container{
+    display: flex;
+    color: white;
+    font-size: 15px;
+
+}
+.road-mobile-text-cont{
+    max-width: 280;
+}
+.road-mt{
+    max-width: 280px;
+    /* border-width: 1px;
+    border-style: solid;
+    border-radius: 15px; */
+    padding-bottom: 25px;
+    padding-left: 8px;
+}
+.title-div{
+    padding-right: 250px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
