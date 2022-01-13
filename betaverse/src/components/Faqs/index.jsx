@@ -42,13 +42,13 @@ export default function Faqs() {
         </div>
         
         <Card.Body >
-      <p className='faq-list-item' onClick={() => setFaq1(true)}>Question 1</p>{' '}
+      <p className='faq-list-item' onClick={() => setFaq1(true)}>Is SigmaVerse really cancel-free?</p>{' '}
       <div className='desktop' style={{minWidth: '1063px', borderColor: 'white', borderWidth: '2px', borderStyle: 'solid', borderBottom: '1' }}></div>
-      <p className='faq-list-item' onClick={() => setFaq2(true)}>Question 2</p>
+      <p className='faq-list-item' onClick={() => setFaq2(true)}>Are our smart contracts safe?</p>
       <div className='desktop' style={{minWidth: '1063px', borderColor: 'white', borderWidth: '2px', borderStyle: 'solid', borderBottom: '1' }}></div>
-      <p className='faq-list-item' onClick={() => setFaq3(true)}>Question 3</p>{' '}
+      <p className='faq-list-item' onClick={() => setFaq3(true)}>How can I contact the team?</p>{' '}
       <div className='desktop' style={{minWidth: '1063px', borderColor: 'white', borderWidth: '2px', borderStyle: 'solid', borderBottom: '1' }}></div>
-      <p className='faq-list-item' onClick={() => setFaq4(true)}>Question 4</p>    
+      <p className='faq-list-item' onClick={() => setFaq4(true)}>Is the Team Doxxed?</p>    
       <div className='desktop' style={{minWidth: '1063px', borderColor: 'white', borderWidth: '2px', borderStyle: 'solid', borderBottom: '1' }}></div>
         <br />
  
@@ -64,6 +64,7 @@ export default function Faqs() {
         size="sm"
         show={faq1}
         onHide={() => setFaq1(false)}
+        centered
         
       >
         <Modal.Header className='modal-design' closeButton>
@@ -82,6 +83,7 @@ export default function Faqs() {
         size="sm"
         show={faq2}
         onHide={() => setFaq2(false)}
+        centered
         
       >
         <Modal.Header className='modal-design' closeButton>
@@ -98,6 +100,7 @@ export default function Faqs() {
         size="sm"
         show={faq3}
         onHide={() => setFaq3(false)}
+        centered
         
       >
         <Modal.Header  className='modal-design' closeButton>
@@ -114,6 +117,7 @@ export default function Faqs() {
         size="sm"
         show={faq4}
         onHide={() => setFaq4(false)}
+        centered
         
       >
         <Modal.Header  className='modal-design' closeButton>

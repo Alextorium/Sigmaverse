@@ -14,7 +14,7 @@ export default function Tokenomics() {
      ];
     return (
         <div id='tokenomicsmobile' className='mobile font-face-MSR'>
-          <h2 className='font-face-MSR' style={{color: 'white', fontWeight: 700, paddingRight: '220px'}}>TOKENOMICS</h2>
+          <h2 className='font-face-MSR' style={{color: 'white', fontWeight: 700, paddingRight: '155px'}}>TokenAllocation</h2>
 
         
         <br />

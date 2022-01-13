@@ -23,6 +23,8 @@
 
 .imguses{
     border-radius: 15px;
+    max-height: 400;
+    max-width: 275;
 }
 
 .download-cases-btn{

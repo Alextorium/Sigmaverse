@@ -9,7 +9,8 @@ export default function Telegram() {
             <div className="backgroundTG font-face-MSB">
                 <div className='telegram-container'>
                   <p className='telegram-text' style={{color: 'white'}}>BE PART OF OUR TELEGRAM COMMUNITY</p> 
-                  <Button className='telegram-button '>JOIN</Button>    
+                  <Button href="https://t.me/sigmaverse" className='telegram-button '>JOIN</Button>    
+                  
                   
                 </div>
              

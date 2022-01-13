@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar1 from '../Navigation1'
 import './BuyBeta.css'
 import { IoCopyOutline } from 'react-icons/io5'
@@ -6,11 +6,12 @@ import Scroll from  '../assets/Scroll bar.png'
 import Element from '../assets/Element (2).png'
 import Counter from '../Counter'
 import { Button } from 'react-bootstrap';
+import WhitePaperModal from '../WhitePaperModal'
 
 
 export default function BuyBeta() {
     const keyCopy = '#dhfjksdhfsdhfjksdhfjksdhfsdhfk'
-    
+    const [whitePaper, setWhitePaper] = useState(false)
       
 
 
@@ -39,7 +40,9 @@ export default function BuyBeta() {
             <div className="buttons-container font-face-MSB">
                 
               <Button className='button-sigma ' style={{ color: 'black',background: 'white',}}>BUY $SIGMA</Button> 
-              <Button className='button-sigma ' style={{background: "none", color:'white',  }}>Whitepaper </Button>  
+              <Button  className='button-sigma ' style={{background: "none", color:'white',  }}
+              onClick={() => setWhitePaper(true)}
+              >Whitepaper </Button>  
             </div>
             <div className='container-key'>
             <Button className="wallet button-copy font-face-MSB extender"  onClick={() =>  navigator.clipboard.writeText(keyCopy)}> <IoCopyOutline style={{marginRight: '7px'}} />
@@ -54,6 +57,9 @@ export default function BuyBeta() {
             </div>
             <br />
             <Counter />
+            <WhitePaperModal
+            show={whitePaper}
+            onHide={() => setWhitePaper(false)} />
             <div className='coverUp'></div>
             
             

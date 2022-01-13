@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Card, Button  } from 'react-bootstrap'
 import SigmaBG from '../assets/SigmaBack.png'
+import WhitePaperModal from '../WhitePaperModal'
 import './WhatIsSigma.css'
 
 export default function WhatisSigma() {
+
+    const [whitePaper, setWhitePaper] = useState(false)
+
+
     return (
         <div id='sigmaversemobile' className='mobile'>
             <Card className="bg-dark text-white ">
@@ -24,10 +29,15 @@ export default function WhatisSigma() {
      <Card.Text className='font-face-MSR text' style={{ paddingBottom:'35px'}}>
      We are the voice in a world of double standards, hypocracy, cancel culture, we see ourselves as front warriors against the injustice of the world, for an open society, freedom of speech and the right to one's opinion, no matter how abstract and crazy. We have made it our vocation to defend freedom of speech in a world that is represented by all possible opinion and NGOs. We are cancel free, we are steadfast, we are a decentralized army of freedom of speech against the modern zeitgeist driven by lies, manipulations and interests of the technocrats.
      </Card.Text>
-     <Button className='button-whitep'><p className='text'>Read Whitepaper</p></Button>
+     <Button className='button-whitep'><p className='text'
+     onClick={() => setWhitePaper(true)}
+     >Read Whitepaper</p></Button>
      </Card.Body>
      </Card>
      
+     <WhitePaperModal
+            show={whitePaper}
+            onHide={() => setWhitePaper(false)} />
 
 
 

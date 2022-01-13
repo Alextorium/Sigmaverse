@@ -1,17 +1,17 @@
 
      [{
-    "title": "Question 1",
-    "answers": "Answer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid est hic autem ratione cum magni quis officiis"
+    "title": "Is SigmaVerse really cancel-free?",
+    "answers": "ANSWER COMMING"
 },
 {
-    "title":"Question 2",
-    "answers": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quisquam ipsa odio? Omnis, eos error. Reprehenderit quae aliquam provident, illo repellat eveniet consequuntur eaque ut quam iure modi quo blanditiis!"
+    "title":"Are our smart contracts safe?",
+    "answers": "Yes, we acknowledge the importance of security and employ battle-tested code heavily audited for vulnerabilities. Our token isn’t forked from a standard token, and it uses new code written exclusively for our needs. Each Smart Contract is tested using trusted audit services. Our Smart Contracts are coded specifically for what we need, not forked from an existing one. "
 },
 {
-    "title":"Question 3" ,
-    "answers": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quisquam ipsa odio? Omnis, eos error. Reprehenderit quae aliquam provident,"
+    "title":"How can I contact the team?" ,
+    "answers": "You can contact the team by joining our Telegram chat. Our admins and developers are happy to help you with any questions you might have!"
 },
 {
-    "title":"Question 4" ,
-    "answers": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. !"
+    "title":"Is the Team Doxxed?" ,
+    "answers": "* Details later"
 }]

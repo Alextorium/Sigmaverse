@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 import { IoCopyOutline } from 'react-icons/io5'
 import './BuySigmaDestop.css'
@@ -6,11 +6,13 @@ import Scroll from '../assets/ScrollBarDesktop.png'
 import Element from '../assets/ElementDesktop.png' 
 import Navbar1 from '../Navigation1'
 import Counter from '../Counter'
+import WhitePaperModal from '../WhitePaperModal'
 
 
 export default function BuySigmaD() {
 
     const keyCopy = '#dhfjksdhfsdhfjksdhfjksdhfsdhfk'
+    const [whitePaper, setWhitePaper] = useState(false)
     return (
         <div id='home' className='desktop'>
         <div style={{maxWidth:'1200px', minHeight: '850px'}} className='  dbackground'>
@@ -26,7 +28,8 @@ export default function BuySigmaD() {
              <h4 className='font-face-MSR sigmaver-sub-desktop'>The Anti-cancel culture, freedom of speech token</h4>
              <div className='desktop-buttons'>
                <Button className='button-sigma desktop-button' style={{ color: 'black',background: 'white',}}>BUY $SIGMA</Button> 
-              <Button className='button-sigma desktop-button' style={{background: "none", color:'white',  }}>Whitepaper </Button>   
+              <Button className='button-sigma desktop-button' style={{background: "none", color:'white',  }}
+              onClick={() => setWhitePaper(true)}>Whitepaper </Button>   
               <Button className=" font-face-MSB wallet-desktop"  onClick={() =>  navigator.clipboard.writeText(keyCopy)}> <IoCopyOutline style={{marginRight: '7px'}} />
             0x5a154665b4c9ae5f7946d78197a384b1194542956
             </Button>
@@ -45,6 +48,10 @@ export default function BuySigmaD() {
                <img src={Scroll} alt="" /> 
             </div>
             <Counter />
+            
+            <WhitePaperModal
+            show={whitePaper}
+            onHide={() => setWhitePaper(false)} />
             
 
         </div>

@@ -1,8 +1,16 @@
 .ourteam-img{
     border-radius: 95px;
-    padding: 45px;
+    padding-left: 45px;
+    padding-right: 45px ;
+    max-width: 290px;
+    
 }
 .ourteam-container{
     display: flex;
     justify-content: center;
+    color: white;
+}
+
+.ourTeamDiv{
+    font-size: 20px;
 }

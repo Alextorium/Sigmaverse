@@ -34,8 +34,14 @@ export default function Navbar1() {
         </Nav.Link>
 
         <Nav.Link>
-          <Link to='tokenomicsmobile' spy={true} smooth={true}>TOKENOMIKS</Link>
+          <Link to='tokenomicsmobile' spy={true} smooth={true}>TOKENDIST</Link>
         </Nav.Link>
+        
+        <Nav.Link>
+          <Link to='therealtokenomicsmobile' spy={true} smooth={true}>TOKENNOMICS</Link>
+        </Nav.Link>
+
+
 
         <Nav.Link>
          <Link to='usecasesmobile' spy={true} smooth={true}>USE CASES</Link> 
@@ -75,7 +81,10 @@ export default function Navbar1() {
          <Link to='sigmaverse'>SIGMAVERSE</Link> 
         </Nav.Link>
         <Nav.Link>
-         <Link to='tokenomics' >TOKENOMIKS</Link> 
+         <Link to='tokenomics' >TOKENDIST</Link> 
+        </Nav.Link>
+        <Nav.Link>
+         <Link to='theRealtokenomics' >TOKENOMIKS</Link> 
         </Nav.Link>
         <Nav.Link>
          <Link to='usecases' >USE CASES</Link> 

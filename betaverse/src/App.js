@@ -19,6 +19,10 @@ import UseCasesDesktop from './components/UseCasesDesktop';
 import RoadMap from './components/RoadMap';
 import NFTsDesktop from './components/NFTsDesktop';
 import NFTs from './components/NFTs';
+import Wlove from './components/WLove';
+import WLoveM from './components/WloveM';
+import TokenN from './components/TheRealTokenomics';
+import TheRealTokenomicsMobile from './components/TheRealTokenomicsMobile';
 
 
 
@@ -36,11 +40,17 @@ function App() {
       <WhatIsSigmaDesktop/>
       <WhatisSigma />
       <br />
-      <NFTsDesktop />
-      <NFTs/>
+      <Wlove/>
+      <WLoveM/>
+      <br />
+      {/* <NFTsDesktop />
+      <NFTs/> */}
       <br />
       <Tokenomics  />
       <Graph />
+      <br />
+      <TokenN />
+      <TheRealTokenomicsMobile  />
       <br />
       <UseCasesDesktop />
       <UseCases  />

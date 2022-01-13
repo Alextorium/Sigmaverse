@@ -1,5 +1,7 @@
 .soft-lines{
     border-radius: 15px;
+    max-height: 530px;
+    max-width: 300px;
 }
 root{
     transition: 3s;

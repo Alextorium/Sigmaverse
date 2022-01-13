@@ -1,6 +1,6 @@
 import React from 'react'
 import RMBGMobile from '../assets/RmMobile.png'
-import RMBGMobile1 from '../assets/RmMobile1.png'
+import RMBGMobile0 from '../assets/RMBGMobile0.png'
 import './RoadMap.css'
 
 
@@ -11,7 +11,7 @@ export default function RoadMap() {
                 <h3>Road Map</h3>
 
             </div>
-            <h2 style={{paddingRight: '300px', paddingBottom:'10px', color: 'white'}}>2021</h2>
+            <h2 style={{paddingRight: '300px', paddingBottom:'10px', color: 'white'}}>2022</h2>
             <div className='road-mobile-container'>
                 <div>
                     <div>
@@ -21,29 +21,54 @@ export default function RoadMap() {
                 </div>
 
                     <div className='road-mobile-text-cont'>
-                    <div className='road-mt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nihil nobis! Ut expedita facilis aliquid repellat quam eligendi, hic quidem? Corrupti dolorem alias officiis tempore. At ullam molestias architecto dolor!</div>
-                    <div className='road-mt'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident facere, nisi quia repellat quasi, quis, ab neque consectetur recusandae incidunt aspernatur eius nemo repudiandae. Enim nesciunt illo quaerat nisi. Nam.</div>
-                    <div className='road-mt' style={{paddingBottom: '20px'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique labore fugit quia incidunt magni ipsum dolores blanditiis, perferendis consequatur soluta ipsam omnis quas doloribus iste pariatur repudiandae cupiditate atque sit!</div>
-                    <div className='road-mt'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora sit, ullam ratione blanditiis rem inventore nemo reiciendis quaerat sunt animi asperiores! Repellat asperiores, nostrum sint facilis dolorum aliquam iusto corrupti.</div> 
+                    <div className='road-mt'>
+                        <p style={{paddingTop:'10px', paddingRight: '5px'}}>Launch Smart Contract.</p>
+                        <p style={{paddingRight: '125px'}}>Launch DAO.</p>
+                        <p >Launch SigmaChan Beta.</p>
+                        <p >Launch NFT Collection 1.</p>
+                    </div>
+                    <div className='road-mt'>
+                    <p style={{paddingRight:'28px'}}>Cross Chain ETH, BSC.</p>
+                        <p style={{paddingLeft:'7px'}} >Launch SigmaCrush Beta.</p>
+                        <p style={{paddingLeft:'13px', fontSize:'22px'}}>Launch NFT Collection 2 & 3.</p>
+                        <p style={{paddingRight:'20px'}} >Launch SigmaBuyBack.</p>
+                    </div>
+                    <div className='road-mt' style={{paddingBottom:'10px'}} >
+                    <p style={{paddingRight:'10px'}} >Launch SigmaChan 1.0 .</p>
+                        <p >Launch SigmaCrush 1.0 .</p>
+                        <p >Burn 10%</p>
+                        <p style={{fontSize: '18px'}}>(preprogrammed time locked contracted).</p>
+                        
+                    </div>
+                    <div className='road-mt' style={{paddingBottom:'30px'}}>
+                        <p style={{paddingRight:'15px'}}>Connection SigmaChan</p>
+                        
+                        <p>and</p>
+                        <p>SigmaCrush.</p>
+                        <p >Launch NFT Collection 4.</p>
+                        </div> 
 
                     </div>
 
             </div>
 
-            <h2 style={{paddingLeft: '300px', paddingBottom:'10px', color: 'white'}}>2022</h2>
+            <h2 style={{paddingLeft: '300px', paddingBottom:'10px', color: 'white'}}>2023</h2>
             <div className='road-mobile-container'>
           
 
                     <div className='road-mobile-text-cont'>
-                    <div className='road-mt' style={{paddingBottom: '25px'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nihil nobis! Ut expedita facilis aliquid repellat quam eligendi, hic quidem? Corrupti dolorem alias officiis tempore. At ullam molestias architecto dolor!</div>
-                    <div className='road-mt' style={{paddingBottom: '35px'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident facere, nisi quia repellat quasi, quis, ab neque consectetur recusandae incidunt aspernatur eius nemo repudiandae. Enim nesciunt illo quaerat nisi. Nam.</div>
-                    <div className='road-mt' style={{paddingBottom: '45px'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique labore fugit quia incidunt magni ipsum dolores blanditiis, perferendis consequatur soluta ipsam omnis quas doloribus iste pariatur repudiandae cupiditate atque sit!</div>
-                    <div className='road-mt'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora sit, ullam ratione blanditiis rem inventore nemo reiciendis quaerat sunt animi asperiores! Repellat asperiores, nostrum sint facilis dolorum aliquam iusto corrupti.</div> 
+                    <div className='road-mt' style={{paddingBottom: '25px'}}>
+                        <p style={{paddingRight:'20px'}}>Integration to the MeseVerse.</p>
+                        <p>SigmaVerse Wallet.</p>
+                    </div>
+                    {/* <div className='road-mt' style={{paddingBottom: '35px'}}></div>
+                    <div className='road-mt' style={{paddingBottom: '45px'}}></div>
+                    <div className='road-mt'></div>  */}
 
                     </div>
                           <div>
                     <div>
-                      <img style={{maxWidth:'78px'}} src={RMBGMobile1} alt="" />  
+                      <img style={{maxWidth:'78px'}} src={RMBGMobile0} alt="" />  
                     </div>
                               
                 </div>
